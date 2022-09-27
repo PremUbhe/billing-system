@@ -1,8 +1,3 @@
-# "__" if you use this, it makes variable private
-# __init__ is automatically executed when an object is created
-# __del__ is automatically called when an object is out of scope
-
-
 class store:
     __item = []            # class variable  "private"
     __price = []
